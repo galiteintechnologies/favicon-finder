@@ -24,7 +24,7 @@ use FaviconFinder\IconFinder;
 $iconFinder = new IconFinder();
 
 $isFaviconAvailable = $iconFinder->isFaviconAvailable("http://packagist.com/");
-if(isFaviconAvailable)
+if($isFaviconAvailable)
 {
     echo "Favicon Icon exist";
 } else {
