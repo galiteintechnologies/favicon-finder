@@ -18,8 +18,7 @@ class IconFinder {
     /**
      * @param string $url
      * 
-     * @return bool
-     * @throws Exception
+     * @return bool     
      */    
     public function isFaviconAvailable($url) {
         
@@ -28,8 +27,7 @@ class IconFinder {
             return FaviconHelper::check($url);
         }
         
-        throw new Exception('URL not found');       
-        
+        return false;
     }
     
 }
