@@ -11,7 +11,7 @@ Check if website have favicon icon exist or not
 If you use composer, you can add this package by running 
 
 ````
-composer require nexuslinkservices/favicon-finder
+composer require galiteintechnologies/favicon-finder
 ````
 
 ## Usage
